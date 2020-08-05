@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header h2{
+  font-size: 4rem;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.buttons{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+}
+.buttons p{
+  margin-bottom: 0;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.game{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.Character-Card{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.game h3{
+  margin: 0 auto;
+  margin-top: 5%;
+}
